@@ -8,7 +8,8 @@ import ToxCast.Toxcast
  * @author burgoonl
  */
 class ToxcastParser(val file_path: String) {
-  def parse(): ArrayBuffer[Toxcast]{
-    
+  def parse(): ArrayBuffer[Toxcast]= {
+    var toxcast_data = ArrayBuffer.empty[Toxcast]
+    return(toxcast_data)
   }
 }
