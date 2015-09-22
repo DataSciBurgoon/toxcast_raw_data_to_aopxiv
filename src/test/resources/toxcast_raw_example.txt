@@ -1,0 +1,20 @@
+c_chemicalname	c_shortname	c_casrn_id	gene_name	assay_name	assay_format_type	assay_source_name	organism	logc	resp
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	-2.22184874961636	5.8505500825539
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	-1.69897000433602	61.0007424230354
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	-1	103.375940255525
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	-0.397940008672038	117.596468225736
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	0.301029995663981	126.89051959457
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	0.778151250383644	125.767771784825
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	1.30102999566398	156.281572354711
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	2	0
+Corticosterone	NULL	50-22-6	estrogen receptor 1	ACEA_T47D	cell-based	ACEA	human	-2.22184874961636	-9.55044950669381
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	0.477121254719662	174.645271757459
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	0.845098040014257	-38.4141182906953
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	1	119.115859992752
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-1	43.2894551602628
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-0.522878745280338	136.522822777867
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-0.221848749616356	-12.0762778793451
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-2.69897000433602	0.337687290894732
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-2.30102999566398	0.0994213004874804
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-2	-0.0994213004874804
+Sodium chlorate	NULL	7775-09-9	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1	Tox21_NFkB_BLA_Agonist	cell-based	Tox21	human	-1.69897000433602	-0.244554398518562
