@@ -9,3 +9,17 @@ eclipse
 exit
 eclipse
 exit
+eclipse
+test
+last test:executeTests
+test
+exit
+test
+last *:update
+exit
+test
+exit
+test
+last test:executeTests
+exit
+test
