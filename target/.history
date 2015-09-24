@@ -23,3 +23,8 @@ test
 last test:executeTests
 exit
 test
+exit
+eclipse
+test
+exit
+test
