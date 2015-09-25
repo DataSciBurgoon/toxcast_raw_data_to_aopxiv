@@ -28,3 +28,41 @@ eclipse
 test
 exit
 test
+run
+reload
+run
+test
+clean
+compile
+run
+run runner
+run runner /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+reload
+clean
+test
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+reload
+clean
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+exit
+clean
+test
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+last compile:run
+exit
+reload
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+exit
+run
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+exit
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+reload
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+clean
+reset
+reload
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt
+reload
+run /Users/burgoonl/Documents/projects/FY15/toxcast/toxcast_data_raw.txt

@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ada81af[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f4f1b0b[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -141,42 +141,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0->org.mongodb#casbah_2.11;2.8.2 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah_2.11;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.11;2.8.2 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving org.mongodb#casbah_2.11;2.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah_2.11;2.8.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah_2.11/2.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.pom (2.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah_2.11;2.8.2!casbah_2.11.pom(pom.original) (270ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah_2.11/2.8.2/jars/casbah_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/2.8.2/casbah_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah_2.11;2.8.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah_2.11;2.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah_2.11;2.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0->org.mongodb#casbah_2.11;2.8.2 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0->org.mongodb#casbah_2.11;2.8.2 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.11.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.scala-lang/scala-library/2.11.7/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.11.7[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (153ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.scala-lang/scala-library/2.11.7/jars/scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->runtime(*)][0m
@@ -190,42 +163,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-commons_2.11;2.8.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;2.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-commons_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-commons_2.11/2.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-commons_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-commons_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.pom (2.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;2.8.2!casbah-commons_2.11.pom(pom.original) (149ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-commons_2.11/2.8.2/jars/casbah-commons_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.11;2.8.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-commons_2.11;2.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.11;2.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-commons_2.11;2.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.11;1.0.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/com.github.nscala-time/nscala-time_2.11/1.0.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.nscala-time#nscala-time_2.11;1.0.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for com.github.nscala-time#nscala-time_2.11;1.0.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom (1.0.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.pom(pom.original) (140ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/com.github.nscala-time/nscala-time_2.11/1.0.0/jars/nscala-time_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.11;1.0.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.11;1.0.0[0m
+[0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.11;1.0.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->com.github.nscala-time#nscala-time_2.11;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
@@ -234,95 +181,26 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/joda-time/joda-time/2.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for joda-time#joda-time;2.3[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for joda-time#joda-time;2.3[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom (2.3)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.3!joda-time.pom(pom.original) (185ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/joda-time/joda-time/2.3/jars/joda-time.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
-[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->joda-time#joda-time;2.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.joda/joda-convert/1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom (1.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.pom(pom.original) (157ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.joda/joda-convert/1.2/jars/joda-convert.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.github.nscala-time#nscala-time_2.11;1.0.0->org.joda#joda-convert;1.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->org.slf4j#slf4j-api;1.6.0 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.slf4j/slf4j-api/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom (1.6.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.pom(pom.original) (154ms)[0m
-[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.6.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}[0m
-[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.6.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-parent;1.6.0[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.slf4j#slf4j-parent;1.6.0[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom (1.6.0)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.0!slf4j-parent.pom(pom.original) (163ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/jars/slf4j-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.slf4j/slf4j-api/1.6.0/jars/slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.0 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.0[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->org.mongodb#mongo-java-driver;2.13.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.13.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.13.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.13.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.13.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/mongo-java-driver/2.13.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#mongo-java-driver;2.13.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#mongo-java-driver;2.13.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.pom (2.13.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.13.2!mongo-java-driver.pom(pom.original) (187ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/mongo-java-driver/2.13.2/jars/mongo-java-driver.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.13.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.13.2[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.13.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-commons_2.11;2.8.2->org.mongodb#mongo-java-driver;2.13.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-commons_2.11;2.8.2 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-commons_2.11;2.8.2 [compile->compile][0m
@@ -344,21 +222,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-core_2.11;2.8.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-core_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;2.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-core_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-core_2.11/2.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-core_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-core_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.pom (2.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;2.8.2!casbah-core_2.11.pom(pom.original) (152ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-core_2.11/2.8.2/jars/casbah-core_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.11;2.8.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-core_2.11;2.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.11;2.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-core_2.11;2.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -367,21 +232,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.8.2->org.mongodb#casbah-query_2.11;2.8.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-query_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;2.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-query_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-query_2.11/2.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-query_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-query_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.pom (2.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;2.8.2!casbah-query_2.11.pom(pom.original) (165ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-query_2.11/2.8.2/jars/casbah-query_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.11;2.8.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-query_2.11;2.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.11;2.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-core_2.11;2.8.2->org.mongodb#casbah-query_2.11;2.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-query_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -422,21 +274,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-gridfs_2.11;2.8.2 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-gridfs_2.11;2.8.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-gridfs_2.11;2.8.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.11;2.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-gridfs_2.11/2.8.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-gridfs_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.mongodb#casbah-gridfs_2.11;2.8.2[0m
-[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.pom (2.8.2)[0m
-[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;2.8.2!casbah-gridfs_2.11.pom(pom.original) (158ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/burgoonl/.ivy2/local/org.mongodb/casbah-gridfs_2.11/2.8.2/jars/casbah-gridfs_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-gridfs_2.11;2.8.2 in public[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-gridfs_2.11;2.8.2[0m
+[0m[[0mdebug[0m] [0m	found org.mongodb#casbah-gridfs_2.11;2.8.2 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah_2.11;2.8.2->org.mongodb#casbah-gridfs_2.11;2.8.2 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.mongodb#casbah-gridfs_2.11;2.8.2->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
@@ -1657,66 +1496,16 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.0!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (2704ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/2.8.2/casbah-commons_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.11;2.8.2!casbah-commons_2.11.jar (233ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/2.8.2/casbah-core_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.11;2.8.2!casbah-core_2.11.jar (244ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/2.8.2/casbah-query_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.11;2.8.2!casbah-query_2.11.jar (243ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/2.8.2/casbah-gridfs_2.11-2.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.11;2.8.2!casbah-gridfs_2.11.jar (170ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar (231ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar (171ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/2.13.2/mongo-java-driver-2.13.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.13.2!mongo-java-driver.jar (1574ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.3!joda-time.jar (367ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar (149ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.11;2.8.2!casbah-commons_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-core_2.11;2.8.2!casbah-core_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-query_2.11;2.8.2!casbah-query_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.11;2.8.2!casbah-gridfs_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.11;1.0.0!nscala-time_2.11.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.13.2!mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
@@ -1725,7 +1514,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4620ms :: artifacts dl 6103ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 466ms :: artifacts dl 15ms[0m
 [0m[[0mdebug[0m] [0m	report for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 compile produced in /Users/burgoonl/Documents/scala_workspace/ToxCastRawParser/target/resolution-cache/reports/toxcast-raw-data-parser-toxcast-raw-data-parser_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 runtime produced in /Users/burgoonl/Documents/scala_workspace/ToxCastRawParser/target/resolution-cache/reports/toxcast-raw-data-parser-toxcast-raw-data-parser_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 test produced in /Users/burgoonl/Documents/scala_workspace/ToxCastRawParser/target/resolution-cache/reports/toxcast-raw-data-parser-toxcast-raw-data-parser_2.11-test.xml[0m
@@ -1739,7 +1528,7 @@
 [0m[[0mdebug[0m] [0m	report for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 docs produced in /Users/burgoonl/Documents/scala_workspace/ToxCastRawParser/target/resolution-cache/reports/toxcast-raw-data-parser-toxcast-raw-data-parser_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 pom produced in /Users/burgoonl/Documents/scala_workspace/ToxCastRawParser/target/resolution-cache/reports/toxcast-raw-data-parser-toxcast-raw-data-parser_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for toxcast-raw-data-parser#toxcast-raw-data-parser_2.11;1.0 scala-tool produced in /Users/burgoonl/Documents/scala_workspace/ToxCastRawParser/target/resolution-cache/reports/toxcast-raw-data-parser-toxcast-raw-data-parser_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4620ms resolve - 6103ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (466ms resolve - 15ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
 [0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.11.6, 2.11.0) -> 2.11.7[0m

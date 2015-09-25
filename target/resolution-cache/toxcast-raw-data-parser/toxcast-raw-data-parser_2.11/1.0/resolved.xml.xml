@@ -4,7 +4,7 @@
 		module="toxcast-raw-data-parser_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150923140603"
+		publication="20150924235744"
 	>
 		<description>
 		toxcast raw data parser

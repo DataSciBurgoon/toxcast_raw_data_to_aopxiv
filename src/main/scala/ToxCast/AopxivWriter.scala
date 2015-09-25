@@ -1,12 +1,13 @@
 package ToxCast
 
 import com.mongodb.casbah.Imports._
-import scala.collection.mutable.ArrayBuffer
+//import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ListBuffer
 
 /**
  * @author burgoonl
  */
-class AopxivWriter(val toxcast_data: ArrayBuffer[Toxcast]) {
+class AopxivWriter(val toxcast_data: ListBuffer[Toxcast]) {
   def send_to_mongo(){
     
     /*
