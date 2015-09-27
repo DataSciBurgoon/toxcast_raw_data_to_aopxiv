@@ -10,39 +10,72 @@ import ToxCast.Toxcast
  */
 
 /*
- * I'm not positive, but I think the GC issues were coming up b/c of ArrayBuffer.
- * Specifically, ArrayBuffer requires contiguous blocks of memory. This works fine
- * so long as you don't have a lot of data. But if you don't have enough contiguous
- * blocks of memory, ArrayBuffer chokes.
+ * To fix the memory issue, I need to:
  * 
- * Thus, I loved over to ListBuffer, which doesn't require contiguous blocks of
- * memory.
+ * 1) Bring the AopxivWriter stuff here to directly send data to MongoDB
+ * 2) Not hold on to the Toxcast object -- just delete it once it's done (or overwrite it)
  * 
- * TODO: I need to re-work this. I think I need to collapse the data down immediately rather
- * than wait until I'm in the AopxivWriter. I think I need to collapse down the Toxcast
- * object so that it doesn't have all the stuff repeating all the time. That should drastically
- * cut down on overall memory usage. That means the doubles are going to have to be placed in
- * a map of some sort most likely, but that's better than the current appraoch.
+ * This will make the code less complex. AopxivWriter also needs to be rewritten.
  */
 class ToxcastParser(val file_path: String) {
   //def parse(): ArrayBuffer[Toxcast]= {
-  def parse(): ListBuffer[Toxcast]= {
-    var toxcast_data = ListBuffer.empty[Toxcast]
+  def parse() {
+    var toxcast_concentration = ListBuffer.empty[Double]
+    var toxcast_value = ListBuffer.empty[Double]
+    var current_assay = ""
+    var current_chemical = ""
     var i = 1
+    val toxcast = new Toxcast()
     for(line <- Source.fromFile(file_path).getLines()){
+      
       if(i > 1){
-        println("here!" + i)
         val split_data = line.split("\t")
-        toxcast_data += new Toxcast(split_data(0), 
-                                    split_data(2), 
-                                    split_data(3), 
-                                    split_data(4), 
-                                    split_data(5), 
-                                    split_data(6), 
-                                    split_data(7), 
-                                    split_data(8).toDouble, 
-                                    split_data(9).toDouble)
-        i += 1
+        if(current_assay == split_data(4) && current_chemical == split_data(0)){
+          if(split_data(8) != "NULL" && split_data(9) != "NULL"){
+            toxcast.concentration_response(split_data(8).toDouble) = split_data(9).toDouble
+          }
+          
+        }
+        else if(i == 2){
+          toxcast.chemical_name = split_data(0)
+          toxcast.casrn = split_data(2)
+          toxcast.gene_name = split_data(3)
+          toxcast.assay_name = split_data(4)
+          toxcast.assay_format_type = split_data(5)
+          toxcast.assay_source_name = split_data(6)
+          toxcast.organism = split_data(7)
+          if(split_data(8) != "NULL" && split_data(9) != "NULL"){
+            toxcast.concentration_response(split_data(8).toDouble) = split_data(9).toDouble
+          }
+          
+          current_assay = split_data(4)
+          current_chemical = split_data(0)
+          
+          i += 1
+        }
+        else{
+          println(toxcast.chemical_name)
+          val aopxivwriter = new AopxivWriter(toxcast)
+          aopxivwriter.send_to_mongo()
+          
+          toxcast.chemical_name = split_data(0)
+          toxcast.casrn = split_data(2)
+          toxcast.gene_name = split_data(3)
+          toxcast.assay_name = split_data(4)
+          toxcast.assay_format_type = split_data(5)
+          toxcast.assay_source_name = split_data(6)
+          toxcast.organism = split_data(7)
+          toxcast.concentration_response.clear()
+          if(split_data(8) != "NULL" && split_data(9) != "NULL"){
+            toxcast.concentration_response(split_data(8).toDouble) = split_data(9).toDouble
+          }
+          
+          current_assay = split_data(4)
+          current_chemical = split_data(0)
+          
+          i += 1
+        }
+        
       }
       else{
         i += 1
@@ -50,6 +83,7 @@ class ToxcastParser(val file_path: String) {
       
     }
     
-    return(toxcast_data)
+    val aopxivwriter = new AopxivWriter(toxcast)
+    aopxivwriter.send_to_mongo()
   }
 }

@@ -1,16 +1,20 @@
 package ToxCast
 
+import scala.collection.mutable.Map
+
 /**
  * @author burgoonl
  */
-class Toxcast(val chemical_name: String, 
-              val casrn: String, 
-              val gene_name: String, 
-              val assay_name: String,
-              val assay_format_type: String,
-              val assay_source_name: String,
-              val organism: String,
-              val log_concentration: Double, 
-              val response_value: Double) {
+class Toxcast() {
+  
+  var chemical_name = ""
+  var casrn = ""
+  var gene_name = "" 
+  var assay_name = ""
+  var assay_format_type = ""
+  var assay_source_name = ""
+  var organism = ""
+  
+  var concentration_response = Map[Double, Double]()
   
 }
